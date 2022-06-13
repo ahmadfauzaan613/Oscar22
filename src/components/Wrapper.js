@@ -7,7 +7,7 @@ function Wrapper(props) {
     <div className="app h-full min-h-screen bg-[#FBFBFB] text-black ">
       {props.isProtect && <Navbar />}
       {props.children}
-      <Footer />
+      {props.isProtect && <Footer />}
     </div>
   )
 }

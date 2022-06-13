@@ -1,8 +1,10 @@
 import React from 'react'
 import rumahgadang from '../assets/img/rumahgadang.jpg'
+
 import bumbu from '../assets/img/Bumbu.jpg'
 
 function Home() {
+
   return (
     <>
       <div className="relative flex">
@@ -15,13 +17,15 @@ function Home() {
           </p>
         </div>
       </div>
-      <div className="py-[25px] px-0 flex items-center justify-evenly mt-6">
-        <input type="search" placeholder="search" className="border w-[50%] rounded-full px-3 py-1" />
-        <select name="" id="" className="border w-[20%] px-3 py-1 rounded-lg">
-          <option value="0">Kategori</option>
-          <option value="Bumbu">Bumbu</option>
-          <option value="Cabe">Cabe</option>
-        </select>
+      <div className="py-[25px] flex-col items-center justify-center mt-6 space-y-3 px-[10%]">
+        <input type="search" placeholder="search" className="border  w-full rounded-lg px-3 py-1" />
+        <div>
+          <select name="" id="" className="border w-full px-3 py-1 rounded-lg">
+            <option value="0">Kategori</option>
+            <option value="Bumbu">Bumbu</option>
+            <option value="Cabe">Cabe</option>
+          </select>
+        </div>
       </div>
       <div className="pl-[10%] grid grid-cols-3 mt-6 gap-y-[20px]">
         <div className="space-y-1 ">

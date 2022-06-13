@@ -12,3 +12,51 @@ body {
 code {
   font-family: 'Roboto', sans-serif;
 }
+
+.notify {
+  animation: fadeinout 2s;
+}
+
+.notify:not(.show) {
+  display: none;
+}
+
+.Toastify__toast-container {
+  width: unset !important;
+  padding: 0 !important;
+}
+
+.Toastify__toast {
+  background-color: #04050a !important;
+  padding: 24px 60px !important;
+  border-radius: 8px !important;
+  box-shadow: 0px 10px 20px 8px rgb(166 166 166 / 30%) !important;
+}
+
+.Toastify__toast-body {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.Toastify__toast-body > div {
+  display: flex;
+  align-items: center;
+}
+
+.Toastify__progress-bar {
+  background-image: linear-gradient(208.62deg, rgb(99, 144, 220) 7.49%, rgb(106, 213, 164) 98.2%) !important;
+  height: 2px !important;
+}
+
+.ReactModal__Overlay {
+  opacity: 0;
+  transition: opacity 800ms ease-in-out;
+}
+
+.ReactModal__Overlay--after-open {
+  opacity: 1;
+}
+
+.ReactModal__Overlay--before-close {
+  opacity: 0;
+}

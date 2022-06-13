@@ -1,0 +1,27 @@
+{
+    "admin": {
+        "username": "admin",
+        "password": "admin"
+    },
+    "user": {
+        "fullname": "oscar",
+        "alamat": "depok",
+        "photo": "",
+        "username": "oscarr",
+        "password": "oscarr"
+    },
+    "barang": {
+        "gambar": "",
+        "judul": "test1",
+        "deskripsi": "test2",
+        "harga": 1.000,
+        "kategori": "cabe"
+    },
+    "order": {
+        "gambar": "",
+        "judul": "test1",
+        "deskripsi": "test2",
+        "harga": 1.000,
+        "kategori": "cabe"
+    }
+}
