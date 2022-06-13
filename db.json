@@ -1,0 +1,46 @@
+{
+  "admin": [
+    {
+      "username": "admin",
+      "password": "admin"
+    }
+  ],
+  "user": [
+    {
+      "id": "1",
+      "fullname": "oscar",
+      "alamat": "depok",
+      "photo": "",
+      "username": "oscarr",
+      "password": "oscarr"
+    },
+    {
+      "username": "oscarr",
+      "password": "oscarr",
+      "id": "U8SKltE"
+    },
+    {
+      "id": "null",
+      "username": "oscarr",
+      "password": "oscarr"
+    }
+  ],
+  "barang": [
+    {
+      "gambar": "",
+      "judul": "test1",
+      "deskripsi": "test2",
+      "harga": 1,
+      "kategori": "cabe"
+    }
+  ],
+  "order": [
+    {
+      "gambar": "",
+      "judul": "test1",
+      "deskripsi": "test2",
+      "harga": 1,
+      "kategori": "cabe"
+    }
+  ]
+}
